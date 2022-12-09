@@ -4,9 +4,9 @@ name: azBuild
 
 on:
   push:
-    branches: [ "master" ]
+    branches-ignore: [ "master" ]
   pull_request:
-    branches: [ "master" ]
+    branches-ignore: [ "master" ]
 
 jobs:
   build-and-deploy:
